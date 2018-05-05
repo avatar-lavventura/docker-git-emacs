@@ -7,5 +7,5 @@ RUN apt-get install -y git
 RUN apt-get install -y emacs
 
 RUN apt-get install -y make
-RUN apt-get install gcc
-RUN apt-get install gfortran
+RUN apt-get install -y gcc
+RUN apt-get install -y gfortran
